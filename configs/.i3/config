@@ -21,6 +21,10 @@ bindsym $mod+Escape kill
 
 bindsym Super_L exec --no-startup-id j4-dmenu-desktop --dmenu 'dmenu -f -i -h 20 -p "" -fn "DejaVu Sans Mono-9" -nb "#101010" -nf "#5f5f5f" -sb "#101010" -sf "#52AD91"'
 
+bindsym $mod+Shift+q move scratchpad
+bindsym $mod+q scratchpad show
+
+
 bindsym $mod+a focus left
 bindsym $mod+s focus down
 bindsym $mod+w focus up

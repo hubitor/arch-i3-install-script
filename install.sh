@@ -30,7 +30,7 @@ curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh
 
 # Modifying config
 echo "Modifying zsh config"
-sed -i -e s/robbyrussell/nanotech/g ~/.zshrc
+sed -i -e s/robbyrussell/simpletech/g ~/.zshrc
 echo "
   alias pac="sudo pacman"
   alias ya="yaourt --noconfirm"

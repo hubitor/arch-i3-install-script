@@ -46,7 +46,7 @@ sudo usermod -s /usr/bin/zsh $USER
 
 # Installing yaourt packages
 echo "Installing yaourt packages"
-yaourt -S --noconfirm dmenu2 j4-dmenu-desktop sublime-text-dev > /dev/null 2> /dev/null
+yaourt -S --noconfirm dmenu2 j4-dmenu-desktop sublime-text-dev i3lock-blur > /dev/null 2> /dev/null
 
 # Copying config files
 echo "Copying configs"

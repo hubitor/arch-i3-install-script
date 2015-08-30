@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 # Installing base packages
-yes | sudo pacman -S vim i3-wm xfce4-terminal xorg-xinit ttf-dejavu faience-icon-theme feh zsh
+yes | sudo pacman -S vim xfce4-terminal xorg-xinit ttf-dejavu ttf-droid faience-icon-theme feh zsh
 
 # Installing yaourt
 git clone https://aur.archlinux.org/package-query.git
@@ -29,6 +29,13 @@ sudo usermod -s /usr/bin/zsh $USER
 
 # Installing yaourt packages
 yaourt -S --noconfirm dmenu2 j4-dmenu-desktop
+
+git clone git://github.com/i3/i3
+cd i3
+curl https://raw.githubusercontent.com/ashinkarov/i3-extras/master/0x2493-patches/smart-border.patch | patch src/con.c
+make
+cd ..
+rm -r i3
 
 # Copying config files
 cp -R configs/.* ~

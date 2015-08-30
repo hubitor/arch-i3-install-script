@@ -4,7 +4,8 @@ set -e
 
 # Installing base packages
 echo "Installing base packages"
-yes | sudo pacman -S vim xfce4-terminal xorg-xinit ttf-dejavu ttf-droid faience-icon-theme feh zsh > /dev/null 2> /dev/null
+(yes | sudo pacman -Rs vim-minimal || true) > /dev/null 2> /dev/null
+yes "" | sudo pacman -S vim xfce4-terminal xorg-xinit ttf-dejavu ttf-droid faience-icon-theme feh zsh > /dev/null 2> /dev/null
 
 # Installing i3wm
 echo "Installing i3wm from git with smart borders patch"

@@ -27,7 +27,8 @@ rm -rf package-query yaourt
 
 # Installing oh-my-zsh
 echo "Installing oh-my-zsh"
-curl -1 -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh  > /dev/null 2> /dev/null
+git clone https://github.com/robbyrussell/oh-my-zsh.git > /dev/null 2> /dev/null
+cat oh-my-zsh/tools/install.sh | sh
 
 # Modifying config
 echo "Modifying zsh config"

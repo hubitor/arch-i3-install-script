@@ -1,21 +1,20 @@
 #!/usr/bin/env sh
 
-read -p "Part your devices, make filesystems and mount to /mnt: "
+yes | sudo pacman -S vim i3-wm xfce4-terminal xorg-xinit lxappearance ttf-dejavu faience-icon-theme feh zsh
 
-yes "" | pacstrap -i /mnt base base-devel
-genfstab -U /mnt > /mnt/etc/fstab
+git clone https://aur.archlinux.org/package-query.git
+cd package-query
+yes | makepkg -si
+cd ..
+git clone https://aur.archlinux.org/yaourt.git
+cd yaourt
+yes | makepkg -si
+cd ..
 
-chmod +x ./install-chroot.sh
-cp install-chroot.sh /mnt
-cp locale.gen /mnt
+rm -rf package-query yaourt
 
-arch-chroot /mnt /bin/bash -x <<'EOF'
-su -
-./install-chroot.sh
-EOF
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-rm /mnt/install-chroot.sh
-rm /mnt/locale.gen
+sudo usermod -s /usr/bin/zsh $USER
 
-umount -R /mnt
-#reboot
+yaourt -S --noconfirm dmenu2

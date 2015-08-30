@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 # Installing base packages
-yes | sudo pacman -S vim i3-wm xfce4-terminal xorg-xinit lxappearance ttf-dejavu faience-icon-theme feh zsh
+yes | sudo pacman -S vim i3-wm xfce4-terminal xorg-xinit ttf-dejavu faience-icon-theme feh zsh
 
 # Installing yaourt
 git clone https://aur.archlinux.org/package-query.git

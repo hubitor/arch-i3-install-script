@@ -18,3 +18,6 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 sudo usermod -s /usr/bin/zsh $USER
 
 yaourt -S --noconfirm dmenu2
+
+# Copying config files
+cp .xinitrc ~

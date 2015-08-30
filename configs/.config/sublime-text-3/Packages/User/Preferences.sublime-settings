@@ -1,0 +1,9 @@
+{
+	"color_scheme": "Packages/Theme - Cyanide/Cyanide.tmTheme",
+	"theme": "Cyanide.sublime-theme",
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"overlay_scroll_bars": "enabled",
+}

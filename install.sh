@@ -36,8 +36,8 @@ git clone https://github.com/robbyrussell/oh-my-zsh.git > /dev/null 2> /dev/null
 echo "Modifying zsh config"
 sed -i -e s/robbyrussell/simpletech/g ~/.zshrc
 echo "
-  alias pac="sudo pacman"
-  alias ya="yaourt --noconfirm"
+  alias pac='sudo pacman'
+  alias ya='yaourt --noconfirm'
 " >> ~/.zshrc
 
 # Setting shell to zsh

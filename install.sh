@@ -31,5 +31,5 @@ sudo usermod -s /usr/bin/zsh $USER
 yaourt -S --noconfirm dmenu2 j4-dmenu-desktop
 
 # Copying config files
-cp configs/.xinitrc ~
-
+cp -R configs/.* ~
+sudo cp -R share/* /usr/share

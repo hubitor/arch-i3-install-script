@@ -2,14 +2,24 @@ exec_always --no-startup-id feh --bg-scale /usr/share/wallpapers/nature-1.jpg
 
 set $mod Mod1
 
-font pango:DejaVu Sans Mono 9
+new_window pixel 2
+new_float pixel 2
+
+# class                 border  backgr. text    indicator
+client.focused          #52AD91 #52AD91 #52AD91 #52AD91 
+client.focused_inactive #101010 #101010 #999999 #101010 
+client.unfocused        #101010 #101010 #999999 #101010 
+client.urgent           #cd989a #cd989a #2e3436 #101010 
+client.background       #121212
+
+font pango:Droid Sans Mono 10
 floating_modifier $mod
 
 bindsym $mod+Return exec xfce4-terminal
 
 bindsym $mod+Escape kill
 
-bindsym Super_L exec --no-startup-id j4-dmenu-desktop
+bindsym Super_L exec --no-startup-id j4-dmenu-desktop --dmenu 'dmenu -f -i -h 20 -p "" -fn "DejaVu Sans Mono-9" -nb "#101010" -nf "#5f5f5f" -sb "#101010" -sf "#52AD91"'
 
 bindsym $mod+a focus left
 bindsym $mod+s focus down
@@ -61,5 +71,15 @@ bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exec "i3-msg exit"
 
 bar {
-        status_command i3status
+  colors {
+    background #101010
+    statusline #999999
+    focused_workspace #101010 #101010 #52AD91
+    active_workspace #5f5f5f #101010 #101010
+    inactive_workspace #101010 #101010 #777777
+    urgent_workspace #2e3436 #9a878f
+  }
+
+  position top
+  status_command .i3/status.sh
 }

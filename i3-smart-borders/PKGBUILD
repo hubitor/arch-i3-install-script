@@ -31,7 +31,7 @@ pkgver() {
 
 build() {
   cd "$_gitname"
-  curl https://raw.githubusercontent.com/ashinkarov/i3-extras/master/0x2493-patches/smart-border.patch | patch src/con.c
+  curl -L https://raw.githubusercontent.com/ashinkarov/i3-extras/master/0x2493-patches/smart-border.patch | patch src/con.c
   make
   make -C man
 }

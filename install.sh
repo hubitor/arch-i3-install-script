@@ -2,7 +2,7 @@
 
 read -p "Part your devices, make filesystems and mount to /mnt: "
 
-pacstrap -i /mnt base base-devel
+yes "" | pacstrap -i /mnt base base-devel
 genfstab -U /mnt > /mnt/etc/fstab
 
 chmod +x ./install-chroot.sh

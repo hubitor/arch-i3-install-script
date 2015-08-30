@@ -5,7 +5,7 @@ yes | sudo pacman -S vim xfce4-terminal xorg-xinit ttf-dejavu ttf-droid faience-
 
 # Installing i3wm
 cd i3-smart-borders
-makepkg -si > /dev/null 2> /dev/null
+yes | makepkg -si > /dev/null 2> /dev/null
 cd ..
 
 # Installing yaourt
@@ -20,7 +20,7 @@ cd ..
 rm -rf package-query yaourt
 
 # Installing oh-my-zsh
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"  > /dev/null 2> /dev/null
+curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh  > /dev/null 2> /dev/null
 
 # Modifying config
 sed -i -e s/robbyrussell/nanotech/g ~/.zshrc

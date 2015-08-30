@@ -33,3 +33,4 @@ yaourt -S --noconfirm dmenu2 j4-dmenu-desktop
 # Copying config files
 cp -R configs/.* ~
 sudo cp -R share/* /usr/share
+sudo chmod -R 777 /usr/share/wallpapers

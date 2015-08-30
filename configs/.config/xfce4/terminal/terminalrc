@@ -1,0 +1,24 @@
+[Configuration]
+MiscAlwaysShowTabs=FALSE
+MiscBell=FALSE
+MiscBordersDefault=TRUE
+MiscCursorBlinks=FALSE
+MiscCursorShape=TERMINAL_CURSOR_SHAPE_IBEAM
+MiscDefaultGeometry=80x24
+MiscInheritGeometry=FALSE
+MiscMenubarDefault=FALSE
+MiscMouseAutohide=FALSE
+MiscToolbarDefault=FALSE
+MiscConfirmClose=TRUE
+MiscCycleTabs=TRUE
+MiscTabCloseButtons=TRUE
+MiscTabCloseMiddleClick=TRUE
+MiscTabPosition=GTK_POS_TOP
+MiscHighlightUrls=TRUE
+ScrollingBar=TERMINAL_SCROLLBAR_NONE
+FontName=Droid Sans Mono 10
+ColorBackground=#101010101010
+ColorPalette=#999999999999;#d3d37070a3a3;#6d6d9e9e3f3f;#b5b588885858;#60609595c5c5;#acac7b7bdede;#3b3ba2a27575;#cfcfcfcfcfcf;#505050505050;#ffffa7a7dada;#a3a3d5d57272;#efefbdbd8b8b;#9898cbcbfefe;#e5e5b0b0ffff;#7575dadaa9a9;#ffffffffffff
+ColorForeground=#e5e5e5e5e5e5
+ColorCursor=#5252adad9191
+

@@ -2,6 +2,8 @@
 
 set -e
 
+sudo echo "Ok!"
+
 # Installing base packages
 echo "Installing base packages"
 (yes | sudo pacman -Rs vim-minimal || true) > /dev/null 2> /dev/null

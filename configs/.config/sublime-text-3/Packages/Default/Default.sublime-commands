@@ -1,0 +1,203 @@
+[
+    { "caption": "Set Encoding: UTF-8", "command": "set_encoding", "args": {"encoding": "utf-8" } },
+    { "caption": "Set Encoding: UTF-16 LE", "command": "set_encoding", "args": {"encoding": "utf-16 le" } },
+    { "caption": "Set Encoding: UTF-16 BE", "command": "set_encoding", "args": {"encoding": "utf-16 be" } },
+    { "caption": "Set Encoding: Western (Windows 1252)", "command": "set_encoding", "args": {"encoding": "Western (Windows 1252)" } },
+    { "caption": "Set Encoding: Western (ISO 8859-1)", "command": "set_encoding", "args": {"encoding": "Western (ISO 8859-1)" } },
+    { "caption": "Set Encoding: Western (ISO 8859-3)", "command": "set_encoding", "args": {"encoding": "Western (ISO 8859-3)" } },
+    { "caption": "Set Encoding: Western (ISO 8859-15)", "command": "set_encoding", "args": {"encoding": "Western (ISO 8859-15)" } },
+    { "caption": "Set Encoding: Western (Mac Roman)", "command": "set_encoding", "args": {"encoding": "Western (Mac Roman)" } },
+    { "caption": "Set Encoding: DOS (CP 437)", "command": "set_encoding", "args": {"encoding": "DOS (CP 437)" } },
+    { "caption": "Set Encoding: Arabic (Windows 1256)", "command": "set_encoding", "args": {"encoding": "Arabic (Windows 1256)" } },
+    { "caption": "Set Encoding: Arabic (ISO 8859-6)", "command": "set_encoding", "args": {"encoding": "Arabic (ISO 8859-6)" } },
+    { "caption": "Set Encoding: Baltic (Windows 1257)", "command": "set_encoding", "args": {"encoding": "Baltic (Windows 1257)" } },
+    { "caption": "Set Encoding: Baltic (ISO 8859-4)", "command": "set_encoding", "args": {"encoding": "Baltic (ISO 8859-4)" } },
+    { "caption": "Set Encoding: Celtic (ISO 8859-14)", "command": "set_encoding", "args": {"encoding": "Celtic (ISO 8859-14)" } },
+    { "caption": "Set Encoding: Central European (Windows 1250)", "command": "set_encoding", "args": {"encoding": "Central European (Windows 1250)" } },
+    { "caption": "Set Encoding: Central European (ISO 8859-2)", "command": "set_encoding", "args": {"encoding": "Central European (ISO 8859-2)" } },
+    { "caption": "Set Encoding: Cyrillic (Windows 1251)", "command": "set_encoding", "args": {"encoding": "Cyrillic (Windows 1251)" } },
+    { "caption": "Set Encoding: Cyrillic (Windows 866)", "command": "set_encoding", "args": {"encoding": "Cyrillic (Windows 866)" } },
+    { "caption": "Set Encoding: Cyrillic (ISO 8859-5)", "command": "set_encoding", "args": {"encoding": "Cyrillic (ISO 8859-5)" } },
+    { "caption": "Set Encoding: Cyrillic (KOI8-R)", "command": "set_encoding", "args": {"encoding": "Cyrillic (KOI8-R)" } },
+    { "caption": "Set Encoding: Cyrillic (KOI8-U)", "command": "set_encoding", "args": {"encoding": "Cyrillic (KOI8-U)" } },
+    { "caption": "Set Encoding: Estonian (ISO 8859-13)", "command": "set_encoding", "args": {"encoding": "Estonian (ISO 8859-13)" } },
+    { "caption": "Set Encoding: Greek (Windows 1253)", "command": "set_encoding", "args": {"encoding": "Greek (Windows 1253)" } },
+    { "caption": "Set Encoding: Greek (ISO 8859-7)", "command": "set_encoding", "args": {"encoding": "Greek (ISO 8859-7)" } },
+    { "caption": "Set Encoding: Hebrew (Windows 1255)", "command": "set_encoding", "args": {"encoding": "Hebrew (Windows 1255)" } },
+    { "caption": "Set Encoding: Hebrew (ISO 8859-8)", "command": "set_encoding", "args": {"encoding": "Hebrew (ISO 8859-8)" } },
+    { "caption": "Set Encoding: Nordic (ISO 8859-10)", "command": "set_encoding", "args": {"encoding": "Nordic (ISO 8859-10)" } },
+    { "caption": "Set Encoding: Romanian (ISO 8859-16)", "command": "set_encoding", "args": {"encoding": "Romanian (ISO 8859-16)" } },
+    { "caption": "Set Encoding: Turkish (Windows 1254)", "command": "set_encoding", "args": {"encoding": "Turkish (Windows 1254)" } },
+    { "caption": "Set Encoding: Turkish (ISO 8859-9)", "command": "set_encoding", "args": {"encoding": "Turkish (ISO 8859-9)" } },
+    { "caption": "Set Encoding: Vietnamese (Windows 1258)", "command": "set_encoding", "args": {"encoding": "Vietnamese (Windows 1258)" } },
+    { "caption": "Set Encoding: Hexadecimal", "command": "set_encoding", "args": {"encoding": "Hexadecimal" } },
+
+    { "caption": "Reopen with Encoding: UTF-8", "command": "reopen", "args": {"encoding": "utf-8" } },
+    { "caption": "Reopen with Encoding: UTF-16 LE", "command": "reopen", "args": {"encoding": "utf-16 le" } },
+    { "caption": "Reopen with Encoding: UTF-16 BE", "command": "reopen", "args": {"encoding": "utf-16 be" } },
+    { "caption": "Reopen with Encoding: Western (Windows 1252)", "command": "reopen", "args": {"encoding": "Western (Windows 1252)" } },
+    { "caption": "Reopen with Encoding: Western (ISO 8859-1)", "command": "reopen", "args": {"encoding": "Western (ISO 8859-1)" } },
+    { "caption": "Reopen with Encoding: Western (ISO 8859-3)", "command": "reopen", "args": {"encoding": "Western (ISO 8859-3)" } },
+    { "caption": "Reopen with Encoding: Western (ISO 8859-15)", "command": "reopen", "args": {"encoding": "Western (ISO 8859-15)" } },
+    { "caption": "Reopen with Encoding: Western (Mac Roman)", "command": "reopen", "args": {"encoding": "Western (Mac Roman)" } },
+    { "caption": "Reopen with Encoding: DOS (CP 437)", "command": "reopen", "args": {"encoding": "DOS (CP 437)" } },
+    { "caption": "Reopen with Encoding: Arabic (Windows 1256)", "command": "reopen", "args": {"encoding": "Arabic (Windows 1256)" } },
+    { "caption": "Reopen with Encoding: Arabic (ISO 8859-6)", "command": "reopen", "args": {"encoding": "Arabic (ISO 8859-6)" } },
+    { "caption": "Reopen with Encoding: Baltic (Windows 1257)", "command": "reopen", "args": {"encoding": "Baltic (Windows 1257)" } },
+    { "caption": "Reopen with Encoding: Baltic (ISO 8859-4)", "command": "reopen", "args": {"encoding": "Baltic (ISO 8859-4)" } },
+    { "caption": "Reopen with Encoding: Celtic (ISO 8859-14)", "command": "reopen", "args": {"encoding": "Celtic (ISO 8859-14)" } },
+    { "caption": "Reopen with Encoding: Central European (Windows 1250)", "command": "reopen", "args": {"encoding": "Central European (Windows 1250)" } },
+    { "caption": "Reopen with Encoding: Central European (ISO 8859-2)", "command": "reopen", "args": {"encoding": "Central European (ISO 8859-2)" } },
+    { "caption": "Reopen with Encoding: Cyrillic (Windows 1251)", "command": "reopen", "args": {"encoding": "Cyrillic (Windows 1251)" } },
+    { "caption": "Reopen with Encoding: Cyrillic (Windows 866)", "command": "reopen", "args": {"encoding": "Cyrillic (Windows 866)" } },
+    { "caption": "Reopen with Encoding: Cyrillic (ISO 8859-5)", "command": "reopen", "args": {"encoding": "Cyrillic (ISO 8859-5)" } },
+    { "caption": "Reopen with Encoding: Cyrillic (KOI8-R)", "command": "reopen", "args": {"encoding": "Cyrillic (KOI8-R)" } },
+    { "caption": "Reopen with Encoding: Cyrillic (KOI8-U)", "command": "reopen", "args": {"encoding": "Cyrillic (KOI8-U)" } },
+    { "caption": "Reopen with Encoding: Estonian (ISO 8859-13)", "command": "reopen", "args": {"encoding": "Estonian (ISO 8859-13)" } },
+    { "caption": "Reopen with Encoding: Greek (Windows 1253)", "command": "reopen", "args": {"encoding": "Greek (Windows 1253)" } },
+    { "caption": "Reopen with Encoding: Greek (ISO 8859-7)", "command": "reopen", "args": {"encoding": "Greek (ISO 8859-7)" } },
+    { "caption": "Reopen with Encoding: Hebrew (Windows 1255)", "command": "reopen", "args": {"encoding": "Hebrew (Windows 1255)" } },
+    { "caption": "Reopen with Encoding: Hebrew (ISO 8859-8)", "command": "reopen", "args": {"encoding": "Hebrew (ISO 8859-8)" } },
+    { "caption": "Reopen with Encoding: Nordic (ISO 8859-10)", "command": "reopen", "args": {"encoding": "Nordic (ISO 8859-10)" } },
+    { "caption": "Reopen with Encoding: Romanian (ISO 8859-16)", "command": "reopen", "args": {"encoding": "Romanian (ISO 8859-16)" } },
+    { "caption": "Reopen with Encoding: Turkish (Windows 1254)", "command": "reopen", "args": {"encoding": "Turkish (Windows 1254)" } },
+    { "caption": "Reopen with Encoding: Turkish (ISO 8859-9)", "command": "reopen", "args": {"encoding": "Turkish (ISO 8859-9)" } },
+    { "caption": "Reopen with Encoding: Vietnamese (Windows 1258)", "command": "reopen", "args": {"encoding": "Vietnamese (Windows 1258)" } },
+    { "caption": "Reopen with Encoding: Hexadecimal", "command": "reopen", "args": {"encoding": "Hexadecimal" } },
+
+    { "command": "prompt_open_folder", "caption": "Open Folder…", "platform": "!OSX" },
+    { "command": "save_all", "caption": "Save All", "mnemonic": "l" },
+    { "command": "close_all", "caption": "Close All Files" },
+
+    { "command": "show_panel", "args": {"panel": "find_in_files"}, "caption": "Find in Files…" },
+
+    {
+        "caption": "Word Wrap: Toggle",
+        "command": "toggle_setting",
+        "args": {"setting": "word_wrap"}
+    },
+    {
+        "caption": "Convert Case: Upper Case",
+        "command": "upper_case"
+    },
+    {
+        "caption": "Convert Case: Lower Case",
+        "command": "lower_case"
+    },
+    {
+        "caption": "Convert Case: Title Case",
+        "command": "title_case"
+    },
+    {
+        "caption": "Convert Case: Swap Case",
+        "command": "swap_case"
+    },
+
+    { "command": "toggle_comment", "args": {"block": false}, "caption": "Toggle Comment" },
+    { "command": "toggle_comment", "args": {"block": true}, "caption": "Toggle Block Comment" },
+
+    { "command": "toggle_bookmark", "caption": "Bookmarks: Toggle" },
+    { "command": "next_bookmark", "caption": "Bookmarks: Select Next" },
+    { "command": "prev_bookmark", "caption": "Bookmarks: Select Previous" },
+    { "command": "clear_bookmarks", "caption": "Bookmarks: Clear All" },
+    { "command": "select_all_bookmarks", "caption": "Bookmarks: Select All" },
+
+    { "caption": "Indentation: Convert to Tabs", "command": "unexpand_tabs", "args": {"set_translate_tabs": true} },
+    { "caption": "Indentation: Convert to Spaces", "command": "expand_tabs", "args": {"set_translate_tabs": true} },
+    { "caption": "Indentation: Reindent Lines", "command": "reindent", "args": {"single_line": false} },
+
+    { "caption": "View: Toggle Side Bar", "command": "toggle_side_bar" },
+    { "caption": "View: Toggle Open Files in Side Bar", "command": "toggle_show_open_files" },
+    { "caption": "View: Toggle Minimap", "command": "toggle_minimap" },
+    { "caption": "View: Toggle Tabs", "command": "toggle_tabs" },
+    { "caption": "View: Toggle Status Bar", "command": "toggle_status_bar" },
+    { "caption": "View: Toggle Menu", "command": "toggle_menu" },
+
+    { "caption": "Project: Save As", "command": "save_project_and_workspace_as" },
+    { "caption": "Project: Close", "command": "close_workspace" },
+    { "caption": "Project: Add Folder", "command": "prompt_add_folder" },
+    { "caption": "Project: Refresh Folders", "command": "refresh_folder_list" },
+    { "caption": "Project: Edit Project",  "command": "open_file", "args": {"file": "${project}"} },
+
+    { "caption": "Preferences: Settings - Default", "command": "open_file", "args": {"file": "${packages}/Default/Preferences.sublime-settings"} },
+    { "caption": "Preferences: Settings - User", "command": "open_file", "args": {"file": "${packages}/User/Preferences.sublime-settings"} },
+    { "caption": "Preferences: Browse Packages", "command": "open_dir", "args": {"dir": "$packages"} },
+
+    {
+        "caption": "Preferences: Key Bindings - Default",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/Default/Default (Windows).sublime-keymap",
+            "platform": "Windows"
+        }
+    },
+    {
+        "caption": "Preferences: Key Bindings - Default",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/Default/Default (OSX).sublime-keymap",
+            "platform": "OSX"
+        }
+    },
+    {
+        "caption": "Preferences: Key Bindings - Default",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/Default/Default (Linux).sublime-keymap",
+            "platform": "Linux"
+        }
+    },
+    {
+        "caption": "Preferences: Key Bindings - User",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/User/Default (Windows).sublime-keymap",
+            "platform": "Windows"
+        }
+    },
+    {
+        "caption": "Preferences: Key Bindings - User",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/User/Default (OSX).sublime-keymap",
+            "platform": "OSX"
+        }
+    },
+    {
+        "caption": "Preferences: Key Bindings - User",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/User/Default (Linux).sublime-keymap",
+            "platform": "Linux"
+        }
+    },
+
+    { "caption": "File: Save All", "command": "save_all" },
+    { "caption": "File: Revert", "command": "revert" },
+    { "caption": "File: New View into File", "command": "clone_file" },
+    { "caption": "File: Close All", "command": "close_all" },
+
+    { "caption": "HTML: Wrap Selection With Tag", "command": "insert_snippet", "args": { "name": "Packages/XML/long-tag.sublime-snippet" } },
+    { "caption": "HTML: Encode Special Characters", "command": "encode_html_entities" },
+
+    { "caption": "Rot13 Selection", "command": "rot13" },
+
+    { "caption": "Sort Lines", "command": "sort_lines", "args": {"case_sensitive": false} },
+    { "caption": "Sort Lines (Case Sensitive)", "command": "sort_lines", "args": {"case_sensitive": true} },
+
+    { "caption": "Permute Lines: Reverse", "command": "permute_lines", "args": {"operation": "reverse"} },
+    { "caption": "Permute Lines: Unique", "command": "permute_lines", "args": {"operation": "unique"} },
+    { "caption": "Permute Lines: Shuffle", "command": "permute_lines", "args": {"operation": "shuffle"} },
+
+    { "caption": "Permute Selections: Sort", "command": "sort_selection", "args": {"case_sensitive": false} },
+    { "caption": "Permute Selections: Sort (Case Sensitive)", "command": "sort_selection", "args": {"case_sensitive": true} },
+    { "caption": "Permute Selections: Reverse", "command": "permute_selection", "args": {"operation": "reverse"} },
+    { "caption": "Permute Selections: Unique", "command": "permute_selection", "args": {"operation": "unique"} },
+    { "caption": "Permute Selections: Shuffle", "command": "permute_selection", "args": {"operation": "shuffle"} },
+
+    { "caption": "Code Folding: Unfold All", "command": "unfold_all" },
+    { "caption": "Code Folding: Fold Tag Attributes", "command": "fold_tag_attributes" },
+
+    { "caption": "About", "command": "show_about_window" },
+    { "caption": "Changelog", "command": "show_changelog" },
+]

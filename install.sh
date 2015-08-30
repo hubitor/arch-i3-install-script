@@ -3,6 +3,10 @@
 # Installing base packages
 yes | sudo pacman -S vim xfce4-terminal xorg-xinit ttf-dejavu ttf-droid faience-icon-theme feh zsh
 
+# Installing i3wm
+cd i3-smart-borders
+makepkg -si
+
 # Installing yaourt
 git clone https://aur.archlinux.org/package-query.git
 cd package-query

@@ -1,4 +1,5 @@
 exec_always --no-startup-id feh --bg-scale /usr/share/wallpapers/nature-1.jpg
+exec_always --no-startup-id setxkbmap -layout us,ru -option grp:caps_toggle
 
 set $mod Mod1
 
@@ -23,6 +24,8 @@ bindsym Super_L exec --no-startup-id j4-dmenu-desktop --dmenu 'dmenu -f -i -h 20
 
 bindsym $mod+Shift+q move scratchpad
 bindsym $mod+q scratchpad show
+
+bindsym $mod+Shift+l exec i3lock-wrapper -u -e
 
 
 bindsym $mod+a focus left

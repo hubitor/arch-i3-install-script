@@ -67,9 +67,9 @@ else
   echo "Enabling autologin and X11 server start"
   sudo mkdir -p /etc/systemd/system/getty@tty1.service.d/
   echo "[Service]
-  ExecStart=
-  ExecStart=-/usr/bin/agetty --autologin $USER --noclear %I 38400 linux
-  " | sudo tee /etc/systemd/system/getty@tty1.service.d/override.conf > /dev/null
+ExecStart=
+ExecStart=-/usr/bin/agetty --autologin $USER --noclear %I 38400 linux
+" | sudo tee /etc/systemd/system/getty@tty1.service.d/override.conf > /dev/null
   echo '[[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && exec startx' > ~/.zprofile
 fi
 
@@ -79,9 +79,9 @@ then
   yes | sudo pacman -S virtualbox-guest-utils xf86-video-vesa > /dev/null 2> /dev/null
 
   echo "vboxguest
-  vboxsf
-  vboxvideo
-  " | sudo tee /etc/modules-load.d/vbox.conf > /dev/null
+vboxsf
+vboxvideo
+" | sudo tee /etc/modules-load.d/vbox.conf > /dev/null
   
   sed -i '1iexec_always --no-startup-id VBoxClient-all' ~/.i3/config
 else

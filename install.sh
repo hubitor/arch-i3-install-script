@@ -53,7 +53,7 @@ echo "Copying configs"
 cp -R configs/{.config,.gtkrc-2.0,.i3,.xinitrc} ~
 cp configs/simpletech.zsh-theme ~/.oh-my-zsh/themes
 sudo cp -R share/{themes,wallpapers} /usr/share
-sudo cp -R etc/{pacman.conf} /etc
+sudo cp -R etc/pacman.conf /etc
 sudo chmod -R 777 /usr/share/wallpapers
 
 echo "Updating pacman database"

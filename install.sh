@@ -17,13 +17,13 @@ cd ..
 
 # Installing yaourt
 echo "Installing yaourt"
-git clone https://aur.archlinux.org/package-query.git  > /dev/null 2> /dev/null
+git clone https://aur.archlinux.org/package-query.git > /dev/null 2> /dev/null
 cd package-query
-yes | makepkg -si  > /dev/null 2> /dev/null
+yes | makepkg -si > /dev/null 2> /dev/null
 cd ..
-git clone https://aur.archlinux.org/yaourt.git  > /dev/null 2> /dev/null
+git clone https://aur.archlinux.org/yaourt.git > /dev/null 2> /dev/null
 cd yaourt
-yes | makepkg -si  > /dev/null 2> /dev/null
+yes | makepkg -si > /dev/null 2> /dev/null
 cd ..
 rm -rf package-query yaourt
 

@@ -59,4 +59,12 @@ sudo chmod -R 777 /usr/share/wallpapers
 echo "Updating pacman database"
 sudo pacman -Sy
 
+echo "Enabling autologin and X11 server start"
+sudo mkdir -p /etc/systemd/system/getty@tty1.service.d/
+sudo echo "[Service]
+ExecStart=
+ExecStart=-/usr/bin/agetty --autologin $USER --noclear %I 38400 linux
+" > /etc/systemd/system/getty@tty1.service.d/override.conf
+echo "[[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && exec startx" > ~/.zprofile
+
 echo "Done!"

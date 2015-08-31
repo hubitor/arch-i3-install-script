@@ -57,7 +57,7 @@ sudo cp -R etc/pacman.conf /etc
 sudo chmod -R 777 /usr/share/wallpapers
 
 echo "Updating pacman database"
-sudo pacman -Sy
+yes | sudo pacman -Sy > /dev/null 2> /dev/null
 
 read -p "Are you want to enable autologin? <Y/n> " prompt
 if [[ $prompt == "n" || $prompt == "no"  || $prompt == "N"  || $prompt == "No" ]]

@@ -76,7 +76,7 @@ fi
 read -p "Are you use virtualbox? <y/N> " prompt
 if [[ $prompt == "y" || $prompt == "yes" || $prompt == "Y"  || $prompt == "Yes" ]]
 then
-  sudo pacman -S virtualbox-guest-utils xf86-video-vesa
+  yes | sudo pacman -S virtualbox-guest-utils xf86-video-vesa > /dev/null 2> /dev/null
 
   echo "vboxguest
   vboxsf

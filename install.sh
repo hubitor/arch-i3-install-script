@@ -17,11 +17,11 @@ cd ..
 
 # Installing yaourt
 echo "Installing yaourt"
-git clone https://aur.archlinux.org/package-query.git > /dev/null 2> /dev/null
+git clone --depth=1 https://aur.archlinux.org/package-query.git > /dev/null 2> /dev/null
 cd package-query
 yes | makepkg -si > /dev/null 2> /dev/null
 cd ..
-git clone https://aur.archlinux.org/yaourt.git > /dev/null 2> /dev/null
+git clone --depth=1 https://aur.archlinux.org/yaourt.git > /dev/null 2> /dev/null
 cd yaourt
 yes | makepkg -si > /dev/null 2> /dev/null
 cd ..
@@ -29,7 +29,7 @@ rm -rf package-query yaourt
 
 # Installing oh-my-zsh
 echo "Installing oh-my-zsh"
-git clone https://github.com/robbyrussell/oh-my-zsh.git > /dev/null 2> /dev/null
+git clone --depth=1 https://github.com/robbyrussell/oh-my-zsh.git > /dev/null 2> /dev/null
 (cat oh-my-zsh/tools/install.sh | sh || true) > /dev/null 2> /dev/null
 
 # Modifying config

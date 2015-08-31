@@ -65,7 +65,7 @@ echo "[Service]
 ExecStart=
 ExecStart=-/usr/bin/agetty --autologin $USER --noclear %I 38400 linux
 " | sudo tee /etc/systemd/system/getty@tty1.service.d/override.conf > /dev/null
-echo "[[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && exec startx" > ~/.zprofile
+echo '[[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && exec startx' > ~/.zprofile
 
 echo "Done!"
 echo "You may want to unlogin (to get zsh works), x server starts automaticly"

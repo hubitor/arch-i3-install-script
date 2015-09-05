@@ -34,6 +34,9 @@ export LANG=en_US.UTF-8
 echo "Setting up time"
 ln -sf /usr/share/zoneinfo/Europe/Moscow /etc/localtime
 
+echo "Enabling network"
+systemctl enable dhcpcd
+
 echo "Setting up bootloader"
 yes "" | pacman -S git grub
 grub-install --recheck /dev/sda

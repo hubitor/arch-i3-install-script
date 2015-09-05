@@ -36,9 +36,9 @@ git clone --depth=1 https://github.com/robbyrussell/oh-my-zsh.git > /dev/null 2>
 echo "Modifying zsh config"
 sed -i -e s/robbyrussell/simpletech/g ~/.zshrc
 echo "
-eval \"$(thefuck --alias fk)\"
-eval \"$(thefuck --alias fuck)\"
-eval \"$(thefuck --alias FUCK)\"
+eval \"\$(thefuck --alias fk)\"
+eval \"\$(thefuck --alias fuck)\"
+eval \"\$(thefuck --alias FUCK)\"
 
 alias pac='sudo pacman --noconfirm'
 alias ya='yaourt --noconfirm'

@@ -16,7 +16,7 @@ echo "Mounting"
 mount /dev/sda1 /mnt
 
 echo "Setting up base packages"
-pacstrap -i /mnt base base-devel
+yes "" | pacstrap -i /mnt base base-devel
 
 echo "Generating fstab"
 genfstab -U /mnt > /mnt/etc/fstab

@@ -91,7 +91,7 @@ vboxsf
 vboxvideo
 " | sudo tee /etc/modules-load.d/vbox.conf > /dev/null
   
-  sed -i '1iexec_always --no-startup-id VBoxClient-all' ~/.i3/config
+  sed -i '1iexec_always --no-startup-id "VBoxClient-all; sleep 0.5; feh --bg-scale /usr/share/wallpapers/nature-1.jpg"' ~/.i3/config
 else
   true
 fi

@@ -7,13 +7,7 @@ sudo echo "Ok!"
 # Installing base packages
 echo "Installing base packages"
 (yes | sudo pacman -Rs vim-minimal || true) > /dev/null 2> /dev/null
-yes "" | sudo pacman -S xdotool pkgfile thefuck xclip xorg-server vim xfce4-terminal xorg-xinit ttf-dejavu ttf-droid faience-icon-theme feh zsh > /dev/null 2> /dev/null
-
-# Installing i3wm
-echo "Installing i3wm from git with smart borders patch"
-cd i3-smart-borders
-yes | makepkg -si > /dev/null 2> /dev/null
-cd ..
+yes "" | sudo pacman -S xdotool pkgfile thefuck xclip xorg-server vim xfce4-terminal xorg-xinit ttf-dejavu ttf-droid faience-icon-theme feh zsh dunst ghc ipython pulseaudio thunar screenfetch > /dev/null 2> /dev/null
 
 # Installing yaourt
 echo "Installing yaourt"
@@ -40,7 +34,7 @@ eval \"\$(thefuck --alias fk)\"
 eval \"\$(thefuck --alias fuck)\"
 eval \"\$(thefuck --alias FUCK)\"
 
-alias pac='sudo pacman --noconfirm'
+alias pac='sudo pacman --noconfirm --needed'
 alias ya='yaourt --noconfirm'
 alias clip='xclip -selection clipboard'
 
@@ -54,7 +48,7 @@ sudo usermod -s /usr/bin/zsh $USER
 
 # Installing yaourt packages
 echo "Installing yaourt packages"
-yaourt -S --noconfirm dmenu2 j4-dmenu-desktop sublime-text-dev i3lock-blur i3lock-wrapper > /dev/null 2> /dev/null
+yaourt -S --noconfirm dmenu2 j4-dmenu-desktop sublime-text-dev i3lock-blur i3lock-wrapper intellij-idea-ultimate-edition pycharm-professional clion webstorm phpstorm 0xdbe-eap rubymine i3-git > /dev/null 2> /dev/null
 
 # Copying config files
 echo "Copying configs"

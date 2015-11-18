@@ -22,7 +22,7 @@ bindsym $mod+Return exec xfce4-terminal
 
 bindsym $mod+Escape kill
 
-bindsym Super_L exec --no-startup-id j4-dmenu-desktop --dmenu 'dmenu -f -i -h 20 -p "" -fn "DejaVu Sans Mono-9" -nb "#101010" -nf "#5f5f5f" -sb "#101010" -sf "#52AD91"'
+bindsym Super_L exec --no-startup-id j4-dmenu-desktop --dmenu 'dmenu -f -i -h 20 -p "" -fn "Droid Sans Mono-9" -nb "#101010" -nf "#5f5f5f" -sb "#101010" -sf "#52AD91"'
 
 bindsym $mod+Shift+e exec .i3/scratch-save.sh .i3/e.id
 bindsym $mod+e exec .i3/scratch-show.sh .i3/e.id
